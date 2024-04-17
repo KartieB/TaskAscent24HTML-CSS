@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyhigh</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+     
+        <h1>FlyHigh</h1>
+        <div class="menu">
+            <p>Destination</p>
+            <p>Booking</p>
+            <p>Activities</p>
+            <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+              <div>
+                <button class="loginBtn">Login</button>
+                <button class="singBtn">Sign Up</button>
+            </div>
+        </div>
+       
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    
+ 
+
+    </div>
+
+    <div class="herosection">
+        <p class="bluep">- Blue Mountain Country Club and Resort</p>
+        <h1 class="TreeboH1">Treebo Tryst</h1>
+        <p class="degreep">02&deg;C Very Cold</p>
+
+        <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgb(77, 76, 76)" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="rgb(77, 76, 76)" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+          </svg>
+
+    </div>
+    
+
+    <div class="loctionDiv">
+        <div>
+            
+            <h2 class="lock">Location</h2>
+            <p  class="penter">Enter your Destinotion<span  style="margin-left: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg></span></p>
+              <div class="line"></div>
+        </div>
+        <div>
+            <h2 class="lock">Activity</h2>
+            <p class="penter">Bungee Jump<span style="margin-left: 5px;"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16" transform="rotate(90)">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+</svg>
+</span></p>
+        </div>
+        <div  style="border-right: none;">
+            <h2 class="lock">Date</h2>
+            <p  class="penter">Set Date<span  style="margin-left: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar4-week" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+              </svg></span></p>
+        </div>
+        
+        <div style="border-right: none;">
+            <button class="searchBtn" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+            </button>
+           
+        </div>
+
+    </div>
+
+    <div class="maindivPandh">
+        <div class="trenddiv">
+            <h1  >Trending 2020</h1>
+            <p >Sost Brilliant reasons Entrada should be your one-stop-shop</p>
+        </div>
+        <div>
+            <button class="btnsvgarooow1" style=" border: none; background-color: black; color: white; padding: 10px;border-radius: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+              </svg></button>
+<button class="btnsvgarooow2" style=" border: none; background-color: black; color: white; padding: 10px;border-radius: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+  </svg></button>
+        </div>
+    </div>
+
+    <div class="caddiv">
+        <div class="card1">
+            <div class="crad">
+                <button style="margin-top: -30px; border: none; margin-left: 400px; margin-top: 10px; background-color: antiquewhite;border: non; border-radius: 10px; color: orange;" >4.6</button>
+                        </div>
+                <h4 style="margin-top: 1%;">Mountain Hiking Tour</h4>
+                <p style="color: gray; font-size: 10px; margin-top: -20px;">12Places | 3Activities</p>
+        </div>
+
+        <div class="card1">
+            <div class="crada">
+                <button style="border: none; margin-left: 260px; margin-top: 10px; background-color: antiquewhite;border: non; border-radius: 10px; color: orange;" >4.6</button>
+                        </div>
+                <h4 style="margin-top: 1%;">Train Tour Skyline</h4>
+                <p style="color: gray; font-size: 10px; margin-top: -20px;">12Places | 3Activities</p>
+        </div>
+
+        <div class="card1">
+            <div class="cradb">
+                <button style="border: none; margin-left: 260px; margin-top: 10px; background-color: antiquewhite;border: non; border-radius: 10px; color: orange;" >4.6</button>
+                        </div>
+                <h4 style="margin-top: 1%;">Forest Wild Life</h4>
+                <p style="color: gray; font-size: 10px; margin-top: -20px;">12Places | 3Activities</p>
+        </div>
+        <div class="card1">
+            <div class="cradc">
+                <button style="border: none; margin-left: 260px; margin-top: 10px; background-color: antiquewhite;border: non; border-radius: 10px; color: orange;" >4.6</button>
+                        </div>
+                <h4 style="margin-top: 1%;">Old Heritage</h4>
+                <p style="color: gray; font-size: 10px; margin-top: -20px;">12Places | 3Activities</p>
+        </div>
+
+        <div class="card1">
+            <div class="cradd">
+                <button style="border: none; margin-left: 260px; margin-top: 10px; background-color: antiquewhite;border: non; border-radius: 10px; color: orange;" >4.6</button>
+                        </div>
+                <h4 style="margin-top: 1%;">Queen</h4>
+                <p style="color: gray; font-size: 10px; margin-top: -20px;">12Places | 3Activities</p>
+        </div>
+
+      
+    </div>
+ 
+</body>
+</html>

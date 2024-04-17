@@ -1,0 +1,355 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+}
+.menu svg{
+    margin-top: 11px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu p {
+    margin-top: 7px;
+}
+
+.hamburger-menu {
+    display: none; /* Initially hidden on larger screens */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none; /* Hide menu on smaller screens */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu on smaller screens */
+    }
+}
+
+
+.hedaetrDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.hedertext {
+    display: none; /* Hide by default */
+}
+
+.menu-icon {
+    display: none; /* Hide by default */
+    cursor: pointer;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.headerButton button {
+    margin-left: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+}
+.loginBtn{
+
+    background-color: white;
+    color: black;
+    border: none;
+ width: 80px;
+ height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+   
+}
+.loginBtn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+ width: 80px;
+ height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.singBtn{
+    background-color: black;
+    color: white;
+    border: none;
+ width: 80px;
+ height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+   
+}
+.hedaetrDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.hedertext {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.hedertext svg {
+  padding-top: 20px;
+}
+.svg1 {
+    padding-left: 7%;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.tend2020{
+margin-left: -60%;
+}
+
+.herosection {
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 50px;
+    background-image: url('https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBODBmQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--95deb839345d3db82576e8f5a5bc1322e25a7f87/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWxZRk1Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a140f81341e053a34b77dbf5e04e777cacb11aff/f4bd24f4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  border-radius: 20px;
+}
+
+.bluep {
+    color: rgb(77, 76, 76);
+    padding-left: 7%;
+}
+
+.TreeboH1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-top: -30px;
+    padding-left: 7%;
+}
+
+.degreep {
+    font-weight: bold;
+    margin-top: 40px;
+    padding-left: 7%;
+}
+
+.loctionDiv {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+
+    margin-left: 7.6%;
+    margin-top: -60px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.loctionDiv h2 {
+    margin: 0;
+}
+.trenddiv{
+
+
+}
+.trenddiv h1{
+  
+    text-align: left;
+
+}
+.penter {
+   
+    color: gray;
+    text-decoration: underline;
+}
+
+.maindivPandh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.maindivPandh div {
+    text-align: center;
+}
+
+.caddiv {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.card1 {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.crad {
+    height: 150px;
+    background-image: url('https://hdqwalls.com/download/1/maldives-resorts-huts-over-water-22-3840x2400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.crada {
+    height: 150px;
+    background-image: url('https://wallpaperaccess.com/full/2974385.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.cradb {
+    height: 150px;
+    background-image: url('https://i.pinimg.com/736x/e7/23/5c/e7235c690ceec61cd1bb8c5b18870107.jpg');
+    background-repeat: no-repeat;https
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.cradc {
+    height: 150px;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/42/b0/95/my-son-heritage-resort.jpg?w=1400&h=-1&s=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+   
+}
+
+.cradd{
+    height: 150px;
+    background-image: url('https://images7.alphacoders.com/345/345182.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.crad button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    color: orange;
+    padding: 5px 10px;
+}
+.searchBtn{
+    margin-top: -10px;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .trenddiv h1{
+  
+        text-align: center;
+    
+    }
+    .hedertext {
+        width: 50%;
+    }
+
+    .headerButton {
+        width: 50%;
+    }
+
+    .herosection {
+        padding: 30px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      border-radius: 20px;
+    }
+
+    .TreeboH1 {
+        font-size: 30px;
+    }
+
+    .loctionDiv {
+       margin-top: 20px;
+    margin-left: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maindivPandh {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caddiv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1 {
+        margin-bottom: 20px;
+    }
+}
+
+.lock{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
